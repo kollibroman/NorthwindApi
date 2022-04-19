@@ -1130,19 +1130,19 @@
     ]
   },
   "packageFolders": {
-    "/home/kollibroman/.nuget/packages/": {}
+    "C:\\Users\\filip\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindEntitiesLib/NorthwindEntitiesLib.csproj",
+      "projectUniqueName": "C:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj",
       "projectName": "NorthwindEntitiesLib",
-      "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindEntitiesLib/NorthwindEntitiesLib.csproj",
-      "packagesPath": "/home/kollibroman/.nuget/packages/",
-      "outputPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindEntitiesLib/obj/",
+      "projectPath": "C:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj",
+      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindEntitiesLib\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1196,7 +1196,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

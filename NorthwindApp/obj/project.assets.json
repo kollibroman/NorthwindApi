@@ -1441,19 +1441,19 @@
     ]
   },
   "packageFolders": {
-    "/home/kollibroman/.nuget/packages/": {}
+    "C:\\Users\\filip\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj",
+      "projectUniqueName": "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindApp\\NorthwindApp.csproj",
       "projectName": "NorthwindApp",
-      "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj",
-      "packagesPath": "/home/kollibroman/.nuget/packages/",
-      "outputPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/obj/",
+      "projectPath": "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindApp\\NorthwindApp.csproj",
+      "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
+      "outputPath": "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindApp\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+        "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net6.0"
@@ -1465,8 +1465,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindContextLib/NorthwindContextLib.csproj": {
-              "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindContextLib/NorthwindContextLib.csproj"
+            "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindContextLib\\NorthwindContextLib.csproj": {
+              "projectPath": "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindContextLib\\NorthwindContextLib.csproj"
             }
           }
         }
@@ -1512,7 +1512,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }
