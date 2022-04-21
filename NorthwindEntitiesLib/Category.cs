@@ -16,7 +16,7 @@ namespace NorthwindApi.AutoGen
 
         [Key]
         [Column("CategoryID")]
-        public int CategoryId { get; set; }
+        public long CategoryId { get; set; }
         [Column(TypeName = "nvarchar (15)")]
         public string CategoryName { get; set; } = null!;
         [Column(TypeName = "ntext")]

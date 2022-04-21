@@ -20,23 +20,23 @@ namespace NorthwindApi.AutoGen
 
         [Key]
         [Column("ProductID")]
-        public int ProductId { get; set; }
+        public long ProductId { get; set; }
         [Column(TypeName = "nvarchar (40)")]
         public string ProductName { get; set; } = null!;
         [Column("SupplierID", TypeName = "int")]
-        public int? SupplierId { get; set; }
+        public long? SupplierId { get; set; }
         [Column("CategoryID", TypeName = "int")]
-        public int? CategoryId { get; set; }
+        public long? CategoryId { get; set; }
         [Column(TypeName = "nvarchar (20)")]
         public string? QuantityPerUnit { get; set; }
         [Column(TypeName = "money")]
         public byte[]? UnitPrice { get; set; }
         [Column(TypeName = "smallint")]
-        public int? UnitsInStock { get; set; }
+        public long? UnitsInStock { get; set; }
         [Column(TypeName = "smallint")]
-        public int? UnitsOnOrder { get; set; }
+        public long? UnitsOnOrder { get; set; }
         [Column(TypeName = "smallint")]
-        public int? ReorderLevel { get; set; }
+        public long? ReorderLevel { get; set; }
         [Column(TypeName = "bit")]
         public byte[] Discontinued { get; set; } = null!;
 

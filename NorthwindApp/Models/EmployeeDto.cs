@@ -2,7 +2,7 @@ namespace NorthwindApp.Models
 {
     public class EmployeeDto
     {
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         public string LastName { get; set; }
         public string FirstName { get; set; }
         public string? Title { get; set; }
@@ -15,7 +15,5 @@ namespace NorthwindApp.Models
         public string? HomePhone { get; set; }
         public byte[]? Photo { get; set; }
         public string? Notes { get; set; }
-        public int? ReportsTo { get; set; }
-        public ICollection<Order> Orders { get; set; }
   }
 }

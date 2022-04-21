@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj": {}
+    "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindEntitiesLib/NorthwindEntitiesLib.csproj": {}
   },
   "projects": {
-    "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj": {
+    "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindEntitiesLib/NorthwindEntitiesLib.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj",
+        "projectUniqueName": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindEntitiesLib/NorthwindEntitiesLib.csproj",
         "projectName": "NorthwindEntitiesLib",
-        "projectPath": "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindEntitiesLib\\NorthwindEntitiesLib.csproj",
-        "packagesPath": "C:\\Users\\filip\\.nuget\\packages\\",
-        "outputPath": "c:\\Users\\filip\\OneDrive\\Dokumenty\\GitHub\\NorthwindApi\\NorthwindEntitiesLib\\obj\\",
+        "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindEntitiesLib/NorthwindEntitiesLib.csproj",
+        "packagesPath": "/home/kollibroman/.nuget/packages/",
+        "outputPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindEntitiesLib/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\filip\\AppData\\Roaming\\NuGet\\NuGet.Config"
+          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
@@ -68,7 +68,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
         }
       }
     }

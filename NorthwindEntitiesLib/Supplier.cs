@@ -17,7 +17,7 @@ namespace NorthwindApi.AutoGen
 
         [Key]
         [Column("SupplierID")]
-        public int SupplierId { get; set; }
+        public long SupplierId { get; set; }
         [Column(TypeName = "nvarchar (40)")]
         public string CompanyName { get; set; } = null!;
         [Column(TypeName = "nvarchar (30)")]

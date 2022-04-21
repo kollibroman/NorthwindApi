@@ -17,7 +17,7 @@ namespace NorthwindApi.AutoGen
 
         [Key]
         [Column("EmployeeID")]
-        public int EmployeeId { get; set; }
+        public long EmployeeId { get; set; }
         [Column(TypeName = "nvarchar (20)")]
         public string LastName { get; set; } = null!;
         [Column(TypeName = "nvarchar (10)")]
@@ -49,7 +49,7 @@ namespace NorthwindApi.AutoGen
         [Column(TypeName = "ntext")]
         public string? Notes { get; set; }
         [Column(TypeName = "int")]
-        public int? ReportsTo { get; set; }
+        public long? ReportsTo { get; set; }
         [Column(TypeName = "nvarchar (255)")]
         public string? PhotoPath { get; set; }
 
