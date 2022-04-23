@@ -1,6 +1,8 @@
 using AutoMapper;
 using Microsoft.AspNetCore.Mvc;
 using NorthwindApp.Models;
+using NorthwindApp.Models.CreateNewDto;
+using NorthwindApp.Models.UpdateDto;
 
 namespace NorthwindApp.Controllers
 {
@@ -46,20 +48,37 @@ namespace NorthwindApp.Controllers
             _dbcontext.SaveChanges();
             return Created($"/api/customer/{customer.CustomerId}", null);
         }
-        // [HttpDelete]
-        // [Route("{id}")]
-        // public ActionResult DeleteCustomer([FromRoute]string customerId)
+
+        // [HttpPut("{id}")]
+        // public ActionResult UpdateCustomer([FromRoute]string customerId,[FromBody] UpdateCustomerDto dto)
         // {
         //     var customer = _dbcontext.Customers.FirstOrDefault(c => c.CustomerId == customerId);
-
-        //     if (customer is null)
+            
+        //     if(customer is null)
         //     {
-        //         return BadRequest();
+        //         return NotFound();
         //     }
 
-        //     _dbcontext.Customers.Remove(customer);
+        //     var updatedCustomer = _mapper.Map<Customer>();
+        //     _dbcontext.Update(updatedCustomer);
         //     _dbcontext.SaveChanges();
-        //     return 
+        //     return Ok($"Resurce with id: {customerId} has been succesfully updated");
         // }
+
+        [HttpDelete]
+        [Route("{id}")]
+        public ActionResult DeleteCustomer([FromRoute]string customerId)
+        {
+            var customer = _dbcontext.Customers.FirstOrDefault(c => c.CustomerId == customerId);
+
+            if (customer is null)
+            {
+                return BadRequest();
+            }
+
+            _dbcontext.Customers.Remove(customer);
+            _dbcontext.SaveChanges();
+            return Ok($"Resource with id: {customerId} has been deleted");
+        }
     }
 }
