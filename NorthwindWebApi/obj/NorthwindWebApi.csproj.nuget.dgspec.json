@@ -1,0 +1,263 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindWebApi/NorthwindWebApi.csproj": {}
+  },
+  "projects": {
+    "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj",
+        "projectName": "NorthwindApp",
+        "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj",
+        "packagesPath": "/home/kollibroman/.nuget/packages/",
+        "outputPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj": {
+                "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[11.0.1, )"
+            },
+            "AutoMapper.Extensions.Microsoft.DependencyInjection": {
+              "target": "Package",
+              "version": "[11.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/NorthwindDomain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/NorthwindDomain.csproj",
+        "projectName": "NorthwindDomain",
+        "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/NorthwindDomain.csproj",
+        "packagesPath": "/home/kollibroman/.nuget/packages/",
+        "outputPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.4, )"
+            },
+            "Microsoft.EntityFrameworkCore.Sqlite": {
+              "target": "Package",
+              "version": "[6.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj",
+        "projectName": "NorthwindInfrastructure",
+        "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj",
+        "packagesPath": "/home/kollibroman/.nuget/packages/",
+        "outputPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/NorthwindDomain.csproj": {
+                "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/NorthwindDomain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindWebApi/NorthwindWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindWebApi/NorthwindWebApi.csproj",
+        "projectName": "NorthwindWebApi",
+        "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindWebApi/NorthwindWebApi.csproj",
+        "packagesPath": "/home/kollibroman/.nuget/packages/",
+        "outputPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindWebApi/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/kollibroman/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj": {
+                "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.2.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/6.0.102/RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

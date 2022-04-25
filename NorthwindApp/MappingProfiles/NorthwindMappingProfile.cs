@@ -1,5 +1,6 @@
 using AutoMapper;
 using NorthwindApp.Models;
+using NorthwindDomain.AutoGen;
 
 namespace NorthwindApp.MappingProfiles
 {
