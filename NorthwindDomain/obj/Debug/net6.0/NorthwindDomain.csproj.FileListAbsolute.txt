@@ -1,0 +1,14 @@
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/NorthwindDomain.csproj.AssemblyReference.cache
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/NorthwindDomain.GeneratedMSBuildEditorConfig.editorconfig
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/NorthwindDomain.AssemblyInfoInputs.cache
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/NorthwindDomain.AssemblyInfo.cs
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/NorthwindDomain.csproj.CoreCompileInputs.cache
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/bin/Debug/net6.0/NorthwindDomain.deps.json
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/bin/Debug/net6.0/NorthwindDomain.runtimeconfig.json
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/bin/Debug/net6.0/NorthwindDomain.dll
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/bin/Debug/net6.0/ref/NorthwindDomain.dll
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/bin/Debug/net6.0/NorthwindDomain.pdb
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/NorthwindDomain.dll
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/ref/NorthwindDomain.dll
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/NorthwindDomain.pdb
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/obj/Debug/net6.0/NorthwindDomain.genruntimeconfig.cache
