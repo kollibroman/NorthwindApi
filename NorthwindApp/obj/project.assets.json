@@ -483,19 +483,6 @@
         "runtime": {
           "bin/placeholder/NorthwindDomain.dll": {}
         }
-      },
-      "NorthwindInfrastructure/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v6.0",
-        "dependencies": {
-          "NorthwindDomain": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/NorthwindInfrastructure.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/NorthwindInfrastructure.dll": {}
-        }
       }
     }
   },
@@ -1228,18 +1215,13 @@
       "type": "project",
       "path": "../NorthwindDomain/NorthwindDomain.csproj",
       "msbuildProject": "../NorthwindDomain/NorthwindDomain.csproj"
-    },
-    "NorthwindInfrastructure/1.0.0": {
-      "type": "project",
-      "path": "../NorthwindInfrastructure/NorthwindInfrastructure.csproj",
-      "msbuildProject": "../NorthwindInfrastructure/NorthwindInfrastructure.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net6.0": [
       "AutoMapper >= 11.0.1",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 11.0.0",
-      "NorthwindInfrastructure >= 1.0.0"
+      "NorthwindDomain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -1267,8 +1249,8 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj": {
-              "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj"
+            "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/NorthwindDomain.csproj": {
+              "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindDomain/NorthwindDomain.csproj"
             }
           }
         }

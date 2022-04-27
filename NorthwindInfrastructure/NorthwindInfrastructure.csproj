@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <ItemGroup>
-    <ProjectReference Include="..\NorthwindDomain\NorthwindDomain.csproj" />
+    <ProjectReference Include="..\NorthwindApp\NorthwindApp.csproj" />
   </ItemGroup>
 
   <PropertyGroup>

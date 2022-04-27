@@ -547,7 +547,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
-          "NorthwindInfrastructure": "1.0.0"
+          "NorthwindDomain": "1.0.0"
         },
         "compile": {
           "bin/placeholder/NorthwindApp.dll": {}
@@ -574,7 +574,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v6.0",
         "dependencies": {
-          "NorthwindDomain": "1.0.0"
+          "NorthwindApp": "1.0.0"
         },
         "compile": {
           "bin/placeholder/NorthwindInfrastructure.dll": {}
@@ -1454,6 +1454,7 @@
   "projectFileDependencyGroups": {
     "net6.0": [
       "NorthwindApp >= 1.0.0",
+      "NorthwindInfrastructure >= 1.0.0",
       "Swashbuckle.AspNetCore >= 6.2.3"
     ]
   },
@@ -1484,6 +1485,9 @@
           "projectReferences": {
             "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj": {
               "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindApp/NorthwindApp.csproj"
+            },
+            "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj": {
+              "projectPath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj"
             }
           }
         }

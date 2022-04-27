@@ -10,7 +10,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
-          "NorthwindInfrastructure": "1.0.0"
+          "NorthwindDomain": "1.0.0"
         },
         "runtime": {
           "NorthwindApp.dll": {}
@@ -372,14 +372,6 @@
         "runtime": {
           "NorthwindDomain.dll": {}
         }
-      },
-      "NorthwindInfrastructure/1.0.0": {
-        "dependencies": {
-          "NorthwindDomain": "1.0.0"
-        },
-        "runtime": {
-          "NorthwindInfrastructure.dll": {}
-        }
       }
     }
   },
@@ -607,11 +599,6 @@
       "hashPath": "system.text.json.6.0.0.nupkg.sha512"
     },
     "NorthwindDomain/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "NorthwindInfrastructure/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

@@ -9,6 +9,7 @@
       "NorthwindWebApi/1.0.0": {
         "dependencies": {
           "NorthwindApp": "1.0.0",
+          "NorthwindInfrastructure": "1.0.0",
           "Swashbuckle.AspNetCore": "6.2.3"
         },
         "runtime": {
@@ -364,7 +365,7 @@
         "dependencies": {
           "AutoMapper": "11.0.1",
           "AutoMapper.Extensions.Microsoft.DependencyInjection": "11.0.0",
-          "NorthwindInfrastructure": "1.0.0"
+          "NorthwindDomain": "1.0.0"
         },
         "runtime": {
           "NorthwindApp.dll": {}
@@ -381,7 +382,7 @@
       },
       "NorthwindInfrastructure/1.0.0": {
         "dependencies": {
-          "NorthwindDomain": "1.0.0"
+          "NorthwindApp": "1.0.0"
         },
         "runtime": {
           "NorthwindInfrastructure.dll": {}

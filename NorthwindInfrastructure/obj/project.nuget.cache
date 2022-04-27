@@ -1,9 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "p4NtmUyof3i3iWZZOMaPCcbrHCcnzux+9BcF/mYe9yCSza8wbZetWdkOi33a59ifjgzMEYpfHGLCjcNDBDhD+A==",
+  "dgSpecHash": "Mcp1VAPk/jTIfMmjnDhXHCyIl3uCnB+FN933S5IafL7k8HBf9z0nqyNICp7QCr+ODCLYZZzHQRBpWOvg5q6YFQ==",
   "success": true,
   "projectFilePath": "/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/NorthwindInfrastructure.csproj",
   "expectedPackageFiles": [
+    "/home/kollibroman/.nuget/packages/automapper/11.0.1/automapper.11.0.1.nupkg.sha512",
+    "/home/kollibroman/.nuget/packages/automapper.extensions.microsoft.dependencyinjection/11.0.0/automapper.extensions.microsoft.dependencyinjection.11.0.0.nupkg.sha512",
+    "/home/kollibroman/.nuget/packages/microsoft.csharp/4.7.0/microsoft.csharp.4.7.0.nupkg.sha512",
     "/home/kollibroman/.nuget/packages/microsoft.data.sqlite.core/6.0.4/microsoft.data.sqlite.core.6.0.4.nupkg.sha512",
     "/home/kollibroman/.nuget/packages/microsoft.entityframeworkcore/6.0.4/microsoft.entityframeworkcore.6.0.4.nupkg.sha512",
     "/home/kollibroman/.nuget/packages/microsoft.entityframeworkcore.abstractions/6.0.4/microsoft.entityframeworkcore.abstractions.6.0.4.nupkg.sha512",

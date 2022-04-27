@@ -13,3 +13,5 @@
 /home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/obj/Debug/net6.0/NorthwindInfrastructure.dll
 /home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/obj/Debug/net6.0/ref/NorthwindInfrastructure.dll
 /home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/obj/Debug/net6.0/NorthwindInfrastructure.pdb
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/bin/Debug/net6.0/NorthwindApp.dll
+/home/kollibroman/LosoweProjekty/NorthwindApi/NorthwindInfrastructure/bin/Debug/net6.0/NorthwindApp.pdb
