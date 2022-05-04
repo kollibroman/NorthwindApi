@@ -10,34 +10,34 @@ namespace NorthwindApp.MappingProfiles
         public NorthwindMappingProfile()
         {
            CreateMap<Category, CategoryDto>();
-           CreateMap<Category, CreateCategoryDto>();
+           CreateMap<CreateCategoryDto, Category>();
         
            CreateMap<Customer, CustomerDto>();
-            CreateMap<Customer, CreateCustomerDto>();
+            CreateMap<CreateCustomerDto, Customer>();
 
            CreateMap<Employee, EmployeeDto>();
-            CreateMap<Employee, CreateNewEmployeeDto>();
+            CreateMap<CreateNewEmployeeDto, Employee>();
 
            CreateMap<EmployeeTerritory, EmployeeTerritoryDto>();
-            CreateMap<EmployeeTerritory, CreateNewEmployeeTerritoryDto>();
+            CreateMap<CreateNewEmployeeTerritoryDto, EmployeeTerritory>();
 
            CreateMap<OrderDetail, OrderDetailsDto>();
-            CreateMap<OrderDetail, CreateOrderDetailsDto>();
+            CreateMap<CreateOrderDetailsDto, OrderDetail>();
 
            CreateMap<Order, OrderDto>();
-            CreateMap<Order, CreateNewOrderDto>();
+            CreateMap<CreateNewOrderDto, Order>();
 
            CreateMap<Product, ProductDto>();
-            CreateMap<Product, CreateNewProductDto>();
+            CreateMap<CreateNewProductDto, Product>();
 
            CreateMap<Shipper, ShipperDto>();
-            CreateMap<Shipper, CreateNewShipperDto>();
+            CreateMap<CreateNewShipperDto, Shipper>();
 
            CreateMap<Supplier, SupplierDto>();
-            CreateMap<Supplier, CreateNewSupplierDto>();
+            CreateMap<CreateNewSupplierDto, Supplier>();
 
            CreateMap<Territory, TerritoryDto>();
-            CreateMap<Territory, CreateNewTerritoryDto>();
+            CreateMap<CreateNewTerritoryDto, Territory>();
         }
     }
 }

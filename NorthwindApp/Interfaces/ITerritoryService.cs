@@ -8,6 +8,6 @@ namespace NorthwindApp.Interfaces
         IEnumerable<TerritoryDto> GetTerritoryDtos();
         TerritoryDto GetTerritoryDto(string id);
         TerritoryDto AddTerritoryDto(CreateNewTerritoryDto dto);
-        void DeleteTerritoryDto(long id);
+        void DeleteTerritoryDto(string id);
     }
 }

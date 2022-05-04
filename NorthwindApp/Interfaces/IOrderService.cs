@@ -7,7 +7,7 @@ namespace NorthwindApp.Interfaces
     public interface IOrderService
     {
         IEnumerable<OrderDto> GetOrderDtos();
-        OrderDto GetOrderDto();
+        OrderDto GetOrderDto(long id);
         OrderDto AddOrderDto(CreateNewOrderDto dto);
         void DeleteOrder(long id);
     }

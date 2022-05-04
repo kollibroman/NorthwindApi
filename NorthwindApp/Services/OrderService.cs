@@ -1,29 +1,43 @@
+using AutoMapper;
 using NorthwindApp.Interfaces;
 using NorthwindApp.Models;
 using NorthwindApp.Models.CreateNewDto;
+using NorthwindDomain.AutoGen;
+using NorthwindDomain.Interfaces;
 
 namespace NorthwindApp.Services
 {
     public class OrderService : IOrderService
     {
+        private readonly IOrderRepository _repo;
+        private readonly IMapper _mapper;
+        public OrderService(IOrderRepository repo, IMapper mapper)
+        {
+            _repo = repo;
+            _mapper = mapper;
+        }
+        public IEnumerable<OrderDto> GetOrderDtos()
+        {
+            var orders = _repo.GetOrders();
+            return _mapper.Map<IEnumerable<OrderDto>>(orders);
+        }
+        public OrderDto GetOrderDto(long id)
+        {
+            var order = _repo.GetOrder(id);
+            return _mapper.Map<OrderDto>(order);
+        }
+
         public OrderDto AddOrderDto(CreateNewOrderDto dto)
         {
-            throw new NotImplementedException();
+            var order = _mapper.Map<Order>(dto);
+            _repo.CreateOrder(order);
+            return _mapper.Map<OrderDto>(order);
         }
 
         public void DeleteOrder(long id)
         {
-            throw new NotImplementedException();
+            _repo.DeleteOrder(id);
         }
 
-        public OrderDto GetOrderDto()
-        {
-            throw new NotImplementedException();
-        }
-
-        public IEnumerable<OrderDto> GetOrderDtos()
-        {
-            throw new NotImplementedException();
-        }
     }
 }

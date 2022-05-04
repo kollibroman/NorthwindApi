@@ -6,8 +6,8 @@ namespace NorthwindApp.Interfaces
     public interface ICustomerService
     {
         IEnumerable<CustomerDto> GetCustomerDtos();
-        CustomerDto GetCustomerDto(long id);
+        CustomerDto GetCustomerDto(string id);
         CustomerDto AddCustomer(CreateCustomerDto dto);
-        void DeleteCustomer(long id);
+        void DeleteCustomer(string id);
     }
 }

@@ -6,8 +6,8 @@ namespace NorthwindApp.Interfaces
     public interface IEmployeeTerritoryService
     {
         IEnumerable<EmployeeTerritoryDto> GetEmployeeTerritoryDtos();
-        CategoryDto GetEmployeeterritoryDto(long id);
-        CategoryDto AddEmployeeTerritoryDto(CreateNewEmployeeTerritoryDto dto);
+        EmployeeTerritoryDto GetEmployeeterritoryDto(long id);
+        EmployeeTerritoryDto AddEmployeeTerritoryDto(CreateNewEmployeeTerritoryDto dto);
         void DeleteEmployeeTerritoryDto(long id);
     }
 }
